@@ -1,0 +1,42 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.操作面板{
+    background-color: azure;
+    width: 300px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0,0.1);
+}
+.输入区域{
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.文字框{
+    flex-grow: 1;
+    border: none;
+    background-color: #F0F4F8;
+    padding: 10px 15px;
+    outline: none;
+}
+.按钮{
+    background-color: rgb(0, 136, 91);
+    border: none;
+    color: aliceblue;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.清单{
+    list-style-type: none;
+    padding: 0;
+}
+.清单 li{
+    display: flex;
+}
+.清单 label{
+    flex-grow: 1;
+}
